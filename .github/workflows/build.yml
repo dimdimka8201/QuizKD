@@ -23,14 +23,24 @@ jobs:
           sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo6 cmake libffi-dev libssl-dev
           pip install buildozer cython
 
-      - name: Install Android SDK
+      - name: Install Android SDK Command-Line Tools
         run: |
-          sudo apt install -y wget
-          wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
           mkdir -p $HOME/android-sdk/cmdline-tools
+          wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
           unzip commandlinetools-linux-9477386_latest.zip -d $HOME/android-sdk/cmdline-tools
-          export PATH=$PATH:$HOME/android-sdk/cmdline-tools/tools/bin
+          mv $HOME/android-sdk/cmdline-tools/cmdline-tools $HOME/android-sdk/cmdline-tools/latest
+
+      - name: Add Android SDK to PATH
+        run: |
+          echo "export ANDROID_HOME=$HOME/android-sdk" >> $GITHUB_ENV
+          echo "export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools" >> $GITHUB_ENV
+
+      - name: Accept Android SDK licenses
+        run: |
           yes | sdkmanager --licenses
+
+      - name: Install Android SDK Build-Tools
+        run: |
           sdkmanager "build-tools;30.0.3"
 
       - name: Build APK
