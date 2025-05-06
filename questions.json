@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "english": "What's up?",
+    "correctTranslation": "Как дела?",
+    "wrongTranslation": "Что наверху?"
+  },
+  {
+    "id": 2,
+    "english": "I'm just kidding.",
+    "correctTranslation": "Я просто шучу.",
+    "wrongTranslation": "Я просто ребёнок."
+  },
+  {
+    "id": 3,
+    "english": "No way!",
+    "correctTranslation": "Не может быть!",
+    "wrongTranslation": "Нет дороги!"
+  },
+  {
+    "id": 4,
+    "english": "Take it easy.",
+    "correctTranslation": "Не переживай.",
+    "wrongTranslation": "Возьми это легко."
+  },
+  {
+    "id": 5,
+    "english": "You bet!",
+    "correctTranslation": "Ещё бы!",
+    "wrongTranslation": "Ты ставишь!"
+  },
+  {
+    "id": 6,
+    "english": "Hang on a second.",
+    "correctTranslation": "Подожди секунду.",
+    "wrongTranslation": "Повисни на секунду."
+  },
+  {
+    "id": 7,
+    "english": "I'm starving.",
+    "correctTranslation": "Я очень голоден.",
+    "wrongTranslation": "Я умираю."
+  },
+  {
+    "id": 8,
+    "english": "It’s up to you.",
+    "correctTranslation": "Решать тебе.",
+    "wrongTranslation": "Это наверху тебя."
+  },
+  {
+    "id": 9,
+    "english": "I'm broke.",
+    "correctTranslation": "Я на мели.",
+    "wrongTranslation": "Я сломан."
+  },
+  {
+    "id": 10,
+    "english": "Fingers crossed.",
+    "correctTranslation": "Держу кулачки.",
+    "wrongTranslation": "Пальцы скрещены."
+  },
+  {
+    "id": 11,
+    "english": "That makes sense.",
+    "correctTranslation": "Это логично.",
+    "wrongTranslation": "Это делает смысл."
+  },
+  {
+    "id": 12,
+    "english": "I'm in.",
+    "correctTranslation": "Я за.",
+    "wrongTranslation": "Я внутри."
+  },
+  {
+    "id": 13,
+    "english": "No worries.",
+    "correctTranslation": "Без проблем.",
+    "wrongTranslation": "Нет забот."
+  },
+  {
+    "id": 14,
+    "english": "I'm on my way.",
+    "correctTranslation": "Я уже в пути.",
+    "wrongTranslation": "Я на своем пути."
+  },
+  {
+    "id": 15,
+    "english": "It’s not a big deal.",
+    "correctTranslation": "Ничего страшного.",
+    "wrongTranslation": "Это не большая сделка."
+  },
+  {
+    "id": 16,
+    "english": "Give me a break!",
+    "correctTranslation": "Да брось ты!",
+    "wrongTranslation": "Дай мне перерыв!"
+  },
+  {
+    "id": 17,
+    "english": "I'm down.",
+    "correctTranslation": "Я согласен.",
+    "wrongTranslation": "Я внизу."
+  },
+  {
+    "id": 18,
+    "english": "It’s not my thing.",
+    "correctTranslation": "Это не моё.",
+    "wrongTranslation": "Это не моя вещь."
+  },
+  {
+    "id": 19,
+    "english": "Hit me up later.",
+    "correctTranslation": "Напиши мне позже.",
+    "wrongTranslation": "Ударь меня позже."
+  },
+  {
+    "id": 20,
+    "english": "I messed up.",
+    "correctTranslation": "Я всё испортил.",
+    "wrongTranslation": "Я испачкался."
+  },
+  {
+    "id": 21,
+    "english": "I'm feeling blue.",
+    "correctTranslation": "Мне грустно.",
+    "wrongTranslation": "Я чувствую себя синим."
+  },
+  {
+    "id": 22,
+    "english": "It’s a piece of cake.",
+    "correctTranslation": "Это очень просто.",
+    "wrongTranslation": "Это кусок торта."
+  },
+  {
+    "id": 23,
+    "english": "Break a leg!",
+    "correctTranslation": "Ни пуха ни пера!",
+    "wrongTranslation": "Сломай ногу!"
+  },
+  {
+    "id": 24,
+    "english": "I'm beat.",
+    "correctTranslation": "Я очень устал.",
+    "wrongTranslation": "Я побит."
+  },
+  {
+    "id": 25,
+    "english": "Call it a day.",
+    "correctTranslation": "На сегодня хватит.",
+    "wrongTranslation": "Назови это днём."
+  }
+]
